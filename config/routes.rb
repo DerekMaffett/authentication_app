@@ -1,9 +1,14 @@
 AuthenticationApp::Application.routes.draw do
 
+
   root to: 'articles#index'
+  get 'login', to: 'sessions#new', as: 'login'
+  get 'signup', to: 'users#new', as: 'signup'
+  get 'signout', to: 'sessions#destroy', as: 'signout'
+
   resources :users
   resources :articles
-
+  resources :sessions
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
