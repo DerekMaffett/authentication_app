@@ -11,5 +11,4 @@ the app secure as it favors access denial over uninhibited access.
 
 # Contributors
 
-Just me, though of course, credit goes to Ryan Bates of RailsCasts for providing
-the tutorial.
+Thanks to Ryan Bates of RailsCasts for providing the tutorial.
